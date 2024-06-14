@@ -96,7 +96,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=underline'
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=white,underline'
 bindkey '^ ' autosuggest-accept
 # export MANPATH="/usr/local/man:$MANPATH"
 #
