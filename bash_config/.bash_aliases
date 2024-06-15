@@ -2,7 +2,7 @@ alias systemctl="sudo systemctl" # sudo always uses sudo
 
 alias vim="nvim"
 
-# packages
+# apt packages
 alias aptup="sudo apt update && sudo apt upgrade"
 alias aptupd="sudo apt update"
 alias aptupg="sudo apt upgrade"
@@ -25,7 +25,9 @@ alias rc="nvim ~/.bashrc"
 alias zrc="nvim ~/.zshrc"
 alias fishrc="nvim ~/.config/fish/config.fish"
 alias aled="nvim /home/orca/bash_config/.bash_aliases"
-alias cd_mc="cd ~/Documents/Coding"
+alias cdc="nvim ~/Documents/Coding"
+alias nand="nvim ~/Documents/Coding/nand2tetris/"
+alias nvimconf="nvim ~/.config/nvim/"
 
 # Handy short cuts #
 alias c="clear"
@@ -113,5 +115,6 @@ alias gh="browser https://github.com/AndrewIzatt"
 #Backup
 alias idrive="cd /opt/IDriveForLinux/bin && ./idrive"
 
-#Games
-alias fritzing="~/appimages/fritzing-1.0.1-l1653-8d480a18-qt6.AppImage"
+# App Images
+alias fritz="~/appimages/fritzing-1.0.1-l1653-8d480a18-qt6.AppImage"
+alias coolerfanalias="~/appimages/CoolerControl-x86_64.AppImage"
