@@ -121,5 +121,9 @@ bindkey '^ ' autosuggest-accept
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
+# unalias run-help
+# autoload run-help
+# HELPDIR=/usr/share/zsh/"${ZSH_VERSION}"/help
+# alias help=run-help
 source ~/bash_config/.bash_aliases
 fastfetch

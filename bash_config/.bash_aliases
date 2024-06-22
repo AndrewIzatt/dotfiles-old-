@@ -1,6 +1,6 @@
 alias systemctl="sudo systemctl" # sudo always uses sudo
 
-alias vim="nvim"
+# alias vim="nvim"
 
 # apt packages
 alias aptup="sudo apt update && sudo apt upgrade"
@@ -35,7 +35,7 @@ alias h="history"
 alias j="jobs -l"
 
 # Handy flags
-alias cp="cp -i"	# confirm before overwriting something
+alias cp="cp -iv"	# confirm before overwriting something
 alias df="df -h"	# human-readable sizes
 alias free="free -m:"	# show sizes in MB
 alias mkdir="mkdir -pv" # Create directory including specified-parents
