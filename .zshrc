@@ -4,10 +4,10 @@
 #Set Neovim Config
 # export NVIM_APPNAME="nvim-andrew"
 # CURRENT CONFIG
-export NVIM_APPNAME="nvim"
+# export NVIM_APPNAME="nvim"
 # export NVIM_APPNAME="nvim-custom"
 # switch to Kickstart Configuration
-# export NVIM_APPNAME="nvim-kickstart"
+export NVIM_APPNAME="nvim-kickstart"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
