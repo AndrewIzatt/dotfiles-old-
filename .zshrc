@@ -8,7 +8,7 @@ export NVIM_APPNAME="nvim"
 # export NVIM_APPNAME="nvim-custom"
 # switch to Kickstart Configuration
 
-alias nvim-mod='NVIM_APPNAME="kickstart-modular" nvim'
+alias nvim-mod='NVIM_APPNAME="kickmod" nvim'
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
