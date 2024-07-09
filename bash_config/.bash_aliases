@@ -28,6 +28,9 @@ alias aled="nvim /home/orca/bash_config/.bash_aliases"
 alias cdc="nvim ~/Documents/Coding"
 alias nand="nvim ~/Documents/Coding/nand2tetris/"
 alias nvimconf="nvim ~/.config/nvim/"
+alias i3stat="nvim ~/.i3status.conf"
+alias i3conf="nvim ~/.config/i3/config"
+alias roficonf="nvim ~/.config/rofi/config.rasi"
 
 # Handy short cuts #
 alias c="clear"
@@ -108,7 +111,7 @@ alias chromep="/opt/google/chrome/chrome --incognito"
 alias brave="brave-browser"
 
 # Websites
-alias browser="brave"
+alias browser="firefox"
 alias gpt="browser https://chat.openai.com/"
 alias gh="browser https://github.com/AndrewIzatt"
 
@@ -118,3 +121,6 @@ alias idrive="cd /opt/IDriveForLinux/bin && ./idrive"
 # App Images
 alias fritz="~/appimages/fritzing-1.0.1-l1653-8d480a18-qt6.AppImage"
 alias coolerfanalias="~/appimages/CoolerControl-x86_64.AppImage"
+
+# Flatpaks
+alias signal="flatpak run org.signal.Signal"
