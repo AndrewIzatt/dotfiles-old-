@@ -289,10 +289,25 @@ bar {
 # exec pulseaudio -D
 # exec --no-startup-id compton -f
 # Startup Applications
+exec --no-startup-id ~/Documents/scripts/pulseaudio_start.sh
+exec --no-startup-id gio launch ~/.config/autostart/CoolerControl.desktop
+# Start PIA VPN
+exec -- no-startup-id gio launch /usr/share/applications/piavpn.desktop
+# Start Flameshot
+exec --no-startup-id gio launch /usr/share/applications/org.flameshot.Flameshot.desktop
+# Start Blueman
+exec --no-startup-id gio launch /usr/share/applications/blueman-manager.desktop
+# Start Pasystray
+exec --no-startup-id pasystray
+# Start CopyQ
+exec --no-startup-id CopyQ
+# Start RedShift
+exec --no-start-up gio launch /usr/share/applications/redshift-gtk.desktop
+
+# At Startup Always
+# exec --no-startup-id kitty
 ## Left Monitor
 # Workspace 1
-exec --no-startup-id ~/Documents/scripts/pulseaudio_start.sh
-# exec --no-startup-id kitty
 # Workspace 2
 # Workspace 3
 # Workspace 4
@@ -316,18 +331,4 @@ exec --no-startup-id ~/Documents/scripts/pulseaudio_start.sh
 # exec --no-startup-id gio launch ~/.local/share/applications/brave-jgfhkiopnojgkomddlbdcidohjnifmkk-Default.desktop
 # Start YouTube Music at Startup
 # exec --no-startup-id gio launch ~/.local/share/applications/chrome-cinhimbnkkaeohfgghhklpknlkffjgod-Default.desktop
-# Start PIA VPN
-exec -- no-startup-id gio launch /usr/share/applications/piavpn.desktop
-# Start Flameshot
-exec --no-startup-id gio launch /usr/share/applications/org.flameshot.Flameshot.desktop
-# Start Blueman
-exec --no-startup-id gio launch /usr/share/applications/blueman-manager.desktop
-# Start Pasystray
-exec --no-startup-id pasystray
-# Start CopyQ
-exec --no-startup-id CopyQ
-# Start RedShift
-exec --no-start-up gio launch /usr/share/applications/redshift-gtk.desktop
-# At Startup Always
 exec_always nitrogen --restore
-# exec piactl connect

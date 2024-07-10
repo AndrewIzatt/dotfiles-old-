@@ -123,7 +123,6 @@ alias idrive="cd /opt/IDriveForLinux/bin && ./idrive"
 
 # App Images
 alias fritz="~/appimages/fritzing-1.0.1-l1653-8d480a18-qt6.AppImage"
-alias coolerfanalias="nohup ~/appimages/CoolerControl-x86_64.AppImage &"
 
 # Flatpaks
 alias signal="flatpak run org.signal.Signal"
