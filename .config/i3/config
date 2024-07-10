@@ -197,6 +197,7 @@ assign [class="Bitwarden"] $ws3
 assign [class="Signal"] $ws4
 # Workspace 5
 assign [class="Fsearch"] $ws5
+assign [class="Nemo"] $ws5
 # Workspace 6
 assign [class="Brave-browser"] $ws6
 assign [class="Google-chrome"] $ws6
