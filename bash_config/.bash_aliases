@@ -40,7 +40,11 @@ alias cp="cp -iv"	# confirm before overwriting something
 alias df="df -h"	# human-readable sizes
 alias free="free -m:"	# show sizes in MB
 alias mkdir="mkdir -pv" # Create directory including specified-parents
-alias mkd="mkdir"
+alias mkd="mkdir -pv"
+# Create a directory and navigate to it
+mcd() {
+    test -d "$1" || mkdir -pv "$1" && cd "$1"
+}
 alias mv="mv -i" # confirm before moving something
 alias rm="rm -i" # confirm before deleting something
 alias ln="ln -i" # confirm before creating a shortcut to something
@@ -119,7 +123,7 @@ alias idrive="cd /opt/IDriveForLinux/bin && ./idrive"
 
 # App Images
 alias fritz="~/appimages/fritzing-1.0.1-l1653-8d480a18-qt6.AppImage"
-alias coolerfanalias="~/appimages/CoolerControl-x86_64.AppImage"
+alias coolerfanalias="nohup ~/appimages/CoolerControl-x86_64.AppImage &"
 
 # Flatpaks
 alias signal="flatpak run org.signal.Signal"
