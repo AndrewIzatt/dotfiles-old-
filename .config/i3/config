@@ -87,6 +87,14 @@ bindsym $mod+Shift+j move down
 bindsym $mod+Shift+k move up
 bindsym $mod+Shift+l move right
 
+# Navigate Workspaces
+bindsym $mod+Ctrl+h workspace prev
+bindsym $mod+Ctrl+Left workspace prev
+# bindsym $mod+Shift+j move down
+# bindsym $mod+Shift+k move up
+bindsym $mod+Ctrl+l workspace next
+bindsym $mod+Ctrl+Right workspace next
+
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
