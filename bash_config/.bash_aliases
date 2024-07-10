@@ -1,6 +1,4 @@
-alias systemctl="sudo systemctl" # sudo always uses sudo
-
-# alias vim="nvim"
+alias vim="nvim"
 
 # apt packages
 alias aptup="sudo apt update && sudo apt upgrade"
@@ -62,6 +60,7 @@ alias restart_bluetooth="sudo systemctl restart bluetooth.service"
 
 # Reboot/Restart Computer
 alias reboot="sudo reboot"
+alias suspend="sudo systemctl suspend"
 
 # Service Status
 alias get_pulseaudio="pulseaudio --check" # Should have nothing
