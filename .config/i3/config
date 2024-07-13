@@ -319,8 +319,8 @@ exec --no-startup-id gio launch /usr/share/applications/redshift-gtk.desktop
 # Workspace 8
 # Workspace 9
 # Workspace 10
-# exec --no-startup-id flatpak run org.signal.Signal
-# exec --no-startup-id flatpak run com.bitwarden.desktop
+exec --no-startup-id flatpak run org.signal.Signal
+exec --no-startup-id flatpak run com.bitwarden.desktop
 # exec --no-startup-id flatpak run com.rafaelmardojai.Blanket
 # Start YouTube at Startup
 # exec --no-startup-id gio launch ~/.local/share/applications/chrome-agimnkijcaahngcdmfeangaknmldooml-Default.desktop
