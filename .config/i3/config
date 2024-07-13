@@ -296,13 +296,14 @@ exec -- no-startup-id gio launch /usr/share/applications/piavpn.desktop
 # Start Flameshot
 exec --no-startup-id gio launch /usr/share/applications/org.flameshot.Flameshot.desktop
 # Start Blueman
-exec --no-startup-id gio launch /usr/share/applications/blueman-manager.desktop
+# exec --no-startup-id gio launch /usr/share/applications/blueman-manager.desktop /home/orca/.config/autostart/blueman.desktop
+exec --no-startup-id gio launch /home/orca/.config/autostart/blueman.desktop
 # Start Pasystray
 exec --no-startup-id pasystray
 # Start CopyQ
 exec --no-startup-id CopyQ
 # Start RedShift
-exec --no-start-up gio launch /usr/share/applications/redshift-gtk.desktop
+exec --no-startup-id gio launch /usr/share/applications/redshift-gtk.desktop
 
 # At Startup Always
 # exec --no-startup-id kitty
