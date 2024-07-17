@@ -201,6 +201,7 @@ assign [class="Nemo"] $ws5
 # Workspace 6
 assign [class="Brave-browser"] $ws6
 assign [class="Google-chrome"] $ws6
+assign [class="Chromium-browser"] $ws6
 assign [class="firefox"] $ws6
 # Workspace 7
 assign [class="okular"] $ws7
@@ -286,22 +287,25 @@ bar {
 }
 
 # Start PulseAudio
-# exec pulseaudio -D
+exec pulseaudio -D
 # exec --no-startup-id compton -f
 # Startup Applications
-exec --no-startup-id ~/Documents/scripts/pulseaudio_start.sh
+# exec --no-startup-id ~/Documents/scripts/pulseaudio_start.sh
 exec --no-startup-id gio launch ~/.config/autostart/CoolerControl.desktop
 # Start PIA VPN
-exec -- no-startup-id gio launch /usr/share/applications/piavpn.desktop
+exec --no-startup-id gio launch /usr/share/applications/piavpn.desktop
+# Start Stacer
+exec --no-startup-id gio launch ~/.config/autostart/stacer.desktop
 # Start Flameshot
 exec --no-startup-id gio launch /usr/share/applications/org.flameshot.Flameshot.desktop
 # Start Blueman
 # exec --no-startup-id gio launch /usr/share/applications/blueman-manager.desktop /home/orca/.config/autostart/blueman.desktop
 exec --no-startup-id gio launch /home/orca/.config/autostart/blueman.desktop
 # Start Pasystray
-exec --no-startup-id pasystray
+# exec --no-startup-id pasystray
 # Start CopyQ
-exec --no-startup-id CopyQ
+exec --no-startup-id gio launch /home/orca/.config/autostart/copyq.desktop
+# exec --no-startup-id flatpak run com.rtosta.zapzap.desktop
 # Start RedShift
 exec --no-startup-id gio launch /usr/share/applications/redshift-gtk.desktop
 
@@ -321,7 +325,7 @@ exec --no-startup-id gio launch /usr/share/applications/redshift-gtk.desktop
 # Workspace 10
 exec --no-startup-id flatpak run org.signal.Signal
 exec --no-startup-id flatpak run com.bitwarden.desktop
-# exec --no-startup-id flatpak run com.rafaelmardojai.Blanket
+# exec --no-startup-id flatpak run com.rafaelmardojaifsdf.Blanket
 # Start YouTube at Startup
 # exec --no-startup-id gio launch ~/.local/share/applications/chrome-agimnkijcaahngcdmfeangaknmldooml-Default.desktop
 #Start Firefox at Startup
