@@ -293,21 +293,21 @@ exec pulseaudio -D
 # exec --no-startup-id ~/Documents/scripts/pulseaudio_start.sh
 exec --no-startup-id gio launch ~/.config/autostart/CoolerControl.desktop
 # Start PIA VPN
-exec --no-startup-id gio launch /usr/share/applications/piavpn.desktop
+exec --no-startup-id gio launch ~/.config/autostart/pia-client.desktop
 # Start Stacer
 exec --no-startup-id gio launch ~/.config/autostart/stacer.desktop
 # Start Flameshot
-exec --no-startup-id gio launch /usr/share/applications/org.flameshot.Flameshot.desktop
+exec --no-startup-id gio launch ~/.config/autostart/org.flameshot.Flameshot.desktop
 # Start Blueman
 # exec --no-startup-id gio launch /usr/share/applications/blueman-manager.desktop /home/orca/.config/autostart/blueman.desktop
-exec --no-startup-id gio launch /home/orca/.config/autostart/blueman.desktop
+exec --no-startup-id gio launch ~/.config/autostart/blueman.desktop
 # Start Pasystray
 # exec --no-startup-id pasystray
 # Start CopyQ
-exec --no-startup-id gio launch /home/orca/.config/autostart/copyq.desktop
+exec --no-startup-id gio launch ~/.config/autostart/copyq.desktop
 # exec --no-startup-id flatpak run com.rtosta.zapzap.desktop
 # Start RedShift
-exec --no-startup-id gio launch /usr/share/applications/redshift-gtk.desktop
+exec --no-startup-id gio launch ~/.config/autostart/redshift-gtk.desktop
 
 # At Startup Always
 # exec --no-startup-id kitty
