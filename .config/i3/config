@@ -140,7 +140,7 @@ set $ws4 "4: Messengers  "
 set $ws5 "5: Miscellaneous"
 set $ws6 "6: Internet  "
 set $ws7 "7: Reading  "
-set $ws8 "8: Messengers  "
+set $ws8 "8: Settings  "
 set $ws9 "9: YouTube  "
 set $ws10 "10: Music  "
 
@@ -273,6 +273,9 @@ client.urgent           $urgent-bg-color    $urgent-bg-color   $text-color      
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
+        # output primary
+        tray_output primary
+        workspace_buttons yes
         status_command i3status --config ~/.i3status.conf
         position top
         colors {
