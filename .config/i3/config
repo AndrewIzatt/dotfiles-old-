@@ -339,4 +339,5 @@ exec --no-startup-id flatpak run com.bitwarden.desktop
 # exec --no-startup-id gio launch ~/.local/share/applications/brave-jgfhkiopnojgkomddlbdcidohjnifmkk-Default.desktop
 # Start YouTube Music at Startup
 # exec --no-startup-id gio launch ~/.local/share/applications/chrome-cinhimbnkkaeohfgghhklpknlkffjgod-Default.desktop
+exec_always --no-startup-id dunst -config ~/.config/dunst/dunstrc
 exec_always nitrogen --restore

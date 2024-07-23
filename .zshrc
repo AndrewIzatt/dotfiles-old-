@@ -1,3 +1,4 @@
+# setopt verbose
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
@@ -97,7 +98,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=white,underline'
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=grey,underline'
 bindkey '^ ' autosuggest-accept
 # export MANPATH="/usr/local/man:$MANPATH"
 #
