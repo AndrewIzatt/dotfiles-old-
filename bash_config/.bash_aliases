@@ -29,6 +29,8 @@ alias nvimconf="nvim ~/.config/nvim/"
 alias i3stat="nvim ~/.i3status.conf"
 alias i3conf="nvim ~/.config/i3/config"
 alias roficonf="nvim ~/.config/rofi/config.rasi"
+alias polyconf="nvim ~/.config/polybar/config"
+alias polylaunch="nvim ~/.config/polybar/launch.sh"
 
 # Handy short cuts #
 alias c="clear"
