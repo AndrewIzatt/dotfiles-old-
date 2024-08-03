@@ -44,9 +44,9 @@ alias free="free -m:"	# show sizes in MB
 alias mkdir="mkdir -pv" # Create directory including specified-parents
 alias mkd="mkdir -pv"
 # Create a directory and navigate to it
-mcd() {
-    test -d "$1" || mkdir -pv "$1" && cd "$1"
-}
+# mcd() {
+#     test -d "$1" || mkdir -pv "$1" && cd "$1"
+# }
 alias mv="mv -i" # confirm before moving something
 alias rm="rm -i" # confirm before deleting something
 alias ln="ln -i" # confirm before creating a shortcut to something
@@ -128,3 +128,5 @@ alias fritz="~/appimages/fritzing-1.0.1-l1653-8d480a18-qt6.AppImage"
 
 # Flatpaks
 alias signal="flatpak run org.signal.Signal"
+
+

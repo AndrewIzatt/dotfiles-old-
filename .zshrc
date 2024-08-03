@@ -128,4 +128,5 @@ alias ohmyzsh="nvim ~/.oh-my-zsh"
 # HELPDIR=/usr/share/zsh/"${ZSH_VERSION}"/help
 # alias help=run-help
 source ~/bash_config/.bash_aliases
+source ~/bash_config/.functions
 fastfetch
