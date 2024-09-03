@@ -95,6 +95,7 @@ if [ ! -f ~/.bash_functions ]; then
     . ~/bash_config/.bash_functions
 fi
 
+source /etc/profile.d/rvm.sh
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile

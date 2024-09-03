@@ -36,3 +36,7 @@ function ex {
     done
 fi
 }
+
+mcd() {
+    test -d "$1" || mkdir -pv "$1" && cd "$1"
+}

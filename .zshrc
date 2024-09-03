@@ -129,4 +129,7 @@ alias ohmyzsh="nvim ~/.oh-my-zsh"
 # alias help=run-help
 source ~/bash_config/.bash_aliases
 source ~/bash_config/.functions
+source /etc/profile.d/rvm.sh
+
+
 fastfetch
